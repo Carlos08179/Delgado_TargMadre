@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarjeta Día de la Madre</string>
+    <string name="heart_desc">Corazón animado</string>
+    <string name="happy_mothers_day">¡Feliz Día de la Madre!</string>
+    <string name="mothers_day_message">Mamá,\n\nGracias por ser mi guía.En este día especial, quiero recordarte cuánto valoro todo lo que haces por mí. ¡Te quiero, mamá</string>
+    <string name="surprise_button">Toca para una sorpresa</string>
+</resources>

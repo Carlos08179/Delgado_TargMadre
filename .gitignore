@@ -1,0 +1,35 @@
+# Android Studio (basado en el template oficial de Google)
+*.iml
+.gradle
+build/
+captures/
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/*.xml
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos generados
+app/build/
+*.apk
+*.aar
+*.keystore
+
+# Firebase
+google-services.json

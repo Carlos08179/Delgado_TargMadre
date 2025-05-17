@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mom"
+    tools:context=".MainActivity">
+
+<ImageView
+android:id="@+id/heartImage"
+android:layout_width="120dp"
+android:layout_height="120dp"
+android:src="@drawable/ic_heart"
+android:contentDescription="@string/heart_desc"
+app:layout_constraintBottom_toTopOf="@+id/messageTextView"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_chainStyle="packed" />
+
+<TextView
+android:id="@+id/titleTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/happy_mothers_day"
+android:textColor="#E91E63"
+android:textSize="28sp"
+android:textStyle="bold"
+android:shadowColor="#FFFFFF"
+android:shadowDx="1"
+android:shadowDy="1"
+android:shadowRadius="2"
+app:layout_constraintBottom_toTopOf="@+id/messageTextView"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/heartImage" />
+
+<TextView
+android:id="@+id/messageTextView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="20dp"
+android:background="#80FFFFFF"
+    android:elevation="8dp"
+    android:gravity="center"
+    android:lineSpacingExtra="8sp"
+    android:padding="20dp"
+    android:text="@string/mothers_day_message"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:textStyle="italic"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+<Button
+android:id="@+id/btnSurprise"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="30dp"
+android:backgroundTint="#FF4081"
+android:text="@string/surprise_button"
+android:textColor="#FFFFFF"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
